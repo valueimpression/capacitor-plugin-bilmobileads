@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency 'Capacitor'
-  s.dependency "BilMobileAds", '1.2.0'
+  s.dependency "BilMobileAds", '1.2.1'
 end
