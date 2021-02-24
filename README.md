@@ -25,7 +25,7 @@ Key: GADIsAdManagerApp Type: Boolean Type: YES
                     maven { url 'https://jitpack.io' }
                 }
             }
-2. Add BilmobileAdsCapacitor.class to MainActivity.java:
+2. Add BilMobileAds.class to MainActivity.java:
     public class MainActivity extends BridgeActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ Key: GADIsAdManagerApp Type: Boolean Type: YES
             // Initializes the Bridge
             this.init(savedInstanceState, new ArrayList<Class<? extends Plugin>>() {{
                 // Additional plugins you've installed go here
-                add(BilmobileAdsCapacitor.class);
+                add(BilMobileAds.class);
             }});
         }
     }
