@@ -259,7 +259,7 @@ public class BilMobileAds extends Plugin {
 
         getActivity().runOnUiThread(() -> {
             Insets insets = getSafeInsets();
-            JSObject data = new JSObject();            
+            JSObject data = new JSObject();
             int bannerH = this.adBanner.getHeight() > 0 ? this.adBanner.getHeight() : 50;
             data.put("topPadding", bannerH + insets.top);
             data.put("bottomPadding", bannerH + insets.bottom);

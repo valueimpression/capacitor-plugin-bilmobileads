@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-bilmobileads",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Ionic Capacitor plugin for integrate ValueImpressionSDK",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",

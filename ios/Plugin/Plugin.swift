@@ -301,7 +301,7 @@ public class BilMobileAds: CAPPlugin, ADBannerDelegate, ADInterstitialDelegate, 
     }
     
     @objc func isReadyInterstitial(_ call: CAPPluginCall) {
-        if !self.isPluginReady() { return }
+        if !self.isFullReady() { return }
         
         call.resolve([
             "isReady": interstitial.isReady()
